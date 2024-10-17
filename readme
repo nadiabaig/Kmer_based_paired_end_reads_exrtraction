@@ -1,8 +1,8 @@
-# KmerExtractor
+#KmerExtractor
 
 **KmerExtractor** is a bioinformatics tool designed to extract reads containing specific k-mers from paired-end sequencing data. It leverages a Bloom Filter for efficient k-mer membership testing and supports parallel processing to handle large datasets quickly.
 
-## Table of Contents
+##Table of Contents
 
 - [Features](#features)
 - [Installation](#installation)
@@ -13,7 +13,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## Features
+##Features
 
 - **K-mer Extraction**: Efficiently extracts reads containing specified k-mers from paired-end FASTQ files.
 - **Bloom Filter**: Utilizes a Bloom Filter for rapid k-mer membership checking, minimizing memory usage.
@@ -21,7 +21,7 @@
 - **Flexible Input**: Supports gzipped and plain FASTQ files.
 - **Customizable**: Allows users to specify k-mer sizes and the number of parallel workers.
 
-## Installation
+##Installation
 
 To run **KmerExtractor**, ensure you have Python installed (version 3.6 or higher). You can install the required libraries using `pip`:
 
