@@ -34,7 +34,7 @@ pip install biopython bloom-filter
 To run **KmerExtractor**, use the following command format:
 
 ```bash
-python extract_kmers.py --kmer_file <kmer_file> --r1_file <reads_R1.fastq.gz> --r2_file <reads_R2.fastq.gz> --output_r1 <output_R1.fastq.gz> --output_r2 <output_R2.fastq.gz> --kmer_size <kmer_size> --num_workers <num_nodes>
+python extract_reads.py --kmer_file <kmer_file> --r1_file <reads_R1.fastq.gz> --r2_file <reads_R2.fastq.gz> --output_r1 <output_R1.fastq.gz> --output_r2 <output_R2.fastq.gz> --kmer_size <kmer_size> --num_workers <num_nodes>
 ```
 
 ### Command-Line Arguments
@@ -62,13 +62,13 @@ Here are some examples of how to run **KmerExtractor**:
 ### Basic Example
 
 ```bash
-python extract_kmers.py --kmer_file kmers.txt --r1_file reads_R1.fastq.gz --r2_file reads_R2.fastq.gz --output_r1 output_R1.fastq.gz --output_r2 output_R2.fastq.gz --kmer_size 31 --num_workers 4
+python extract_reads.py --kmer_file kmers.txt --r1_file reads_R1.fastq.gz --r2_file reads_R2.fastq.gz --output_r1 output_R1.fastq.gz --output_r2 output_R2.fastq.gz --kmer_size 31 --num_workers 4
 ```
 
 ### Adjusting K-mer Size and Workers
 
 ```bash
-python extract_kmers.py --kmer_file kmers.txt --r1_file reads_R1.fastq.gz --r2_file reads_R2.fastq.gz --output_r1 output_R1.fastq.gz --output_r2 output_R2.fastq.gz --kmer_size 21 --num_workers 8
+python extract_reads.py --kmer_file kmers.txt --r1_file reads_R1.fastq.gz --r2_file reads_R2.fastq.gz --output_r1 output_R1.fastq.gz --output_r2 output_R2.fastq.gz --kmer_size 21 --num_workers 8
 ```
 
 ## Contributing
