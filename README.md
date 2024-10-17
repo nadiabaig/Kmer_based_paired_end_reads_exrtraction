@@ -81,9 +81,6 @@ Contributions are welcome! If you have suggestions for improvements or features,
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
