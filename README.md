@@ -1,6 +1,6 @@
-# KmerExtractor
+# KmerReadExtractor
 
-**KmerExtractor** is a bioinformatics tool designed to extract reads containing specific k-mers from paired-end sequencing data. It leverages a Bloom Filter for efficient k-mer membership testing and supports parallel processing to handle large datasets quickly.
+**KmerReadExtractor** is a bioinformatics tool designed to extract reads containing specific k-mers from paired-end sequencing data. It leverages a Bloom Filter for efficient k-mer membership testing and supports parallel processing to handle large datasets quickly.
 
 ## Table of Contents
 
