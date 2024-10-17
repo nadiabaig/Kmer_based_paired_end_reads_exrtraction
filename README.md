@@ -71,7 +71,7 @@ python extract_reads.py --kmer_file kmers.txt --r1_file reads_R1.fastq.gz --r2_f
 python extract_reads.py --kmer_file kmers.txt --r1_file reads_R1.fastq.gz --r2_file reads_R2.fastq.gz --output_r1 output_R1.fastq.gz --output_r2 output_R2.fastq.gz --kmer_size 21 --num_workers 8
 ```
 
-## Contributing
+## Contribution
 
 Contributions are welcome! If you have suggestions for improvements or features, feel free to fork the repository and submit a pull request.
 
