@@ -15,11 +15,11 @@
 
 ## Features
 
-- **K-mer Extraction**: Efficiently extracts reads containing specified k-mers from paired-end FASTQ files.
+- **K-mer based paired end reads extraction**: Efficiently extracts reads containing specified k-mers from paired-end FASTQ files.
 - **Bloom Filter**: Utilizes a Bloom Filter for rapid k-mer membership checking, minimizing memory usage.
 - **Parallel Processing**: Processes large datasets in parallel, improving performance.
 - **Flexible Input**: Supports gzipped and plain FASTQ files.
-- **Customizable**: Allows users to specify k-mer sizes and the number of parallel workers.
+- **Customizable**: Allows users to specify k-mer sizes and the number of parallel nodes.
 
 ## Installation
 
@@ -34,7 +34,7 @@ pip install biopython bloom-filter
 To run **KmerExtractor**, use the following command format:
 
 ```bash
-python extract_kmers.py --kmer_file <kmer_file> --r1_file <reads_R1.fastq.gz> --r2_file <reads_R2.fastq.gz> --output_r1 <output_R1.fastq.gz> --output_r2 <output_R2.fastq.gz> --kmer_size <kmer_size> --num_workers <num_workers>
+python extract_kmers.py --kmer_file <kmer_file> --r1_file <reads_R1.fastq.gz> --r2_file <reads_R2.fastq.gz> --output_r1 <output_R1.fastq.gz> --output_r2 <output_R2.fastq.gz> --kmer_size <kmer_size> --num_workers <num_nodes>
 ```
 
 ### Command-Line Arguments
